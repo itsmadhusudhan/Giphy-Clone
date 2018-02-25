@@ -58,22 +58,25 @@ li {
 .ct-close {
   background: none;
   border: 0;
-  color: #fff; }
+  color: #000;
+  cursor: pointer; }
 
 .ct-overlay {
   position: fixed;
   background: rgba(0, 0, 0, 0.7);
-  top: 0;
-  right: 0;
-  left: 0;
-  bottom: 0;
+  top: 0px;
+  right: 100px;
+  left: 100px;
+  bottom: 100px;
   display: none;
   z-index: 2; }
 
 .ct-overlay.ct-open {
-  display: grid; }
+  display: grid;
+  justify-items: center;
+  align-items: center; }
 
-.ct-overlay figure {
+.ct-overlay__inner {
   background: white;
   width: 700px;
   padding: 20px; }
@@ -107,7 +110,25 @@ li {
 .ct-grid__item--overlay {
   background: #ffc60032;
   grid-column: 1/-1;
-  grid-row: 1/-1; }
+  grid-row: 1/-1;
+  position: relative;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  transition: 0.2s;
+  transform: translateY(100%);
+  cursor: pointer; }
+
+.ct-grid__item--overlay button {
+  border: 2px solid white;
+  color: White;
+  text-transform: uppercase;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 5px;
+  cursor: pointer; }
+
+.ct-grid__item:hover .ct-grid__item--overlay {
+  transform: translateY(0); }
 
 .ct-grid__item.v1 {
   grid-row: span 2; }
