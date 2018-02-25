@@ -1,0 +1,25 @@
+.ct-header__bar{
+    @include flexbox;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.ct-navigation{
+    @include flexbox;
+}
+
+.ct-menu{
+    @include flexbox;
+}
+
+.ct-menu__item{
+    list-style:none;
+    margin-right: 20px;
+}
+
+.ct-search{
+    border-radius: 5px;
+    border: 1px solid #777;
+    padding-left: 10px;
+    font-size: 15px;
+}
