@@ -4,7 +4,7 @@ const overlayImage = document.querySelector("img");
 const overlayClose = document.querySelector(".ct-close");
 
 fetch(
-  "http://api.giphy.com/v1/gifs/trending?api_key=r7z00ftovfoniicgQnaemALTBSx3umZV"
+  "https://api.giphy.com/v1/gifs/trending?api_key=r7z00ftovfoniicgQnaemALTBSx3umZV"
 )
   .then(data => data.json())
   .then(gifs => {
