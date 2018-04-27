@@ -25,15 +25,15 @@
   },
   "homepage": "https://github.com/itsmadhusudhan/Giphy-Clone#readme",
   "dependencies": {
-    "babel-core": "^6.26.0",
-    "babel-loader": "^7.1.2",
+    "babel-core": "^6.26.2",
+    "babel-loader": "^7.1.4",
     "babel-preset-env": "^1.6.1",
-    "css-loader": "^0.28.10",
+    "css-loader": "^0.28.11",
     "extract-text-webpack-plugin": "^2.1.2",
-    "node-sass": "^4.7.2",
-    "sass-loader": "^6.0.6",
-    "style-loader": "^0.20.2",
+    "node-sass": "^4.9.0",
+    "sass-loader": "^6.0.7",
+    "style-loader": "^0.20.3",
     "webpack": "^3.11.0",
-    "webpack-dev-server": "^2.5.0"
+    "webpack-dev-server": "^2.11.2"
   }
 }
